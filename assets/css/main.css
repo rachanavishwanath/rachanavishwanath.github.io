@@ -59,11 +59,28 @@ table {
 ul.skills {
 	display: flex;
 	flex-direction: row;
+	list-style: none;
+	flex-wrap: wrap;
 }
 
 .skills > li > img {
 	height: 100px;
-	weight: 100px;
+	width: 100px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+.skills [class*="fa"], .skills [class*="devicon"]{
+	height: 100px;
+	width: 100px;
+	font-size: 100px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+div.features > h2 {
+	width: 100%;
+	text-align: center;
 }
 
 p.intro {
