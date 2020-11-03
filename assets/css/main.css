@@ -3074,6 +3074,7 @@ input, select, textarea {
 				opacity: 0;
 				position: absolute;
 				top: 0;
+				/* width: 25em; */
 				width: 100%;
 			}
 
